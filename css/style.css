@@ -78,18 +78,59 @@ body {
   width: 1920px;
   font-family: Lato;
   background-color: #ffffff;
+  color: #ffffff;
 }
 
 .header {
   height: 1080px;
-  border: 1px solid black;
-  background-color: #4e6c89;
+  text-align: center;
+}
+.header .header__backgroud {
+  position: absolute;
+  z-index: -1;
+}
+.header .header__logo {
+  padding: 165px 0;
+}
+.header .header__text {
+  letter-spacing: 5px;
+  text-align: center;
+  height: 345px;
+}
+.header .header__text .header__title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 34px;
+}
+.header .header__text .header__subtitle {
+  font-size: 23px;
+  padding-bottom: 65px;
+}
+.header .header__button a {
+  color: white;
+  border: 0.5px solid white;
+  height: 45px;
+  width: 182px;
+  display: block;
+  padding-top: 14px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 45.5%;
+}
+.header .header__arrow {
+  margin: 75px 500px 150px;
 }
 
 .menu {
   height: 60px;
   border-bottom: 1px solid #f2f2f2;
   padding: 22px 735px 25px 765px;
+  position: sticky;
+  top: 10px;
+}
+.menu nav {
+  display: block;
 }
 .menu a, .menu a:visited {
   color: #3c3c3c;
@@ -114,8 +155,26 @@ body {
 
 .partners {
   height: 385px;
-  border: 1px solid black;
-  background-color: #4e6c89;
+}
+.partners .partners__background img {
+  position: absolute;
+  z-index: -1;
+}
+.partners .partners__title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+  height: 220px;
+  width: 1920px;
+  padding-top: 100px;
+}
+.partners .partners_imgs {
+  padding-left: 600px;
+}
+.partners .partners_imgs img {
+  padding: 0 56px;
 }
 
 .contact {
@@ -125,6 +184,22 @@ body {
 
 .footer {
   height: 275px;
-  border: 1px solid black;
-  background-color: #ada074;
+  background-color: #3c3c3c;
+}
+.footer .footer__logo {
+  padding: 50px 900px 40px;
+}
+.footer .footer__rights {
+  color: #6c6c6c;
+  font-family: "Myriad Pro";
+  text-align: center;
+  padding-top: 33px;
+}
+.footer .footer__buttons {
+  text-align: center;
+}
+.footer a, .footer a:visited {
+  color: #a4a4a4;
+  font-weight: 400;
+  margin: 11px;
 }
