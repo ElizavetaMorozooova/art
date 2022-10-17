@@ -127,7 +127,8 @@ body {
   border-bottom: 1px solid #f2f2f2;
   padding: 22px 735px 25px 765px;
   position: sticky;
-  top: 10px;
+  top: 0px;
+  background-color: white;
 }
 .menu nav {
   display: block;
@@ -145,6 +146,61 @@ body {
 
 .about {
   height: 715px;
+  text-align: center;
+  color: #868585;
+}
+.about h2 {
+  font-size: 22px;
+  letter-spacing: 4px;
+  color: #000000;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.about .about__title {
+  text-transform: uppercase;
+  font-size: 34px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  color: #000000;
+  padding: 130px 890px 35px;
+}
+.about .about__subtitle {
+  width: 745px;
+  height: 100px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 65px;
+}
+.about .about__circle {
+  position: relative;
+  left: 25px;
+}
+.about .aboute__menu {
+  line-height: 26px;
+  font-weight: 300;
+}
+.about .about__icons {
+  position: relative;
+  top: 27px;
+  left: -45px;
+}
+.about .about__blocks {
+  width: 296px;
+  height: 260px;
+  padding: 0 11px;
+  position: absolute;
+}
+.about .about__web {
+  margin-left: 510px;
+}
+.about .about__ios {
+  margin-left: 820px;
+}
+.about .about__marketing {
+  margin-left: 1125px;
 }
 
 .portfolio {
@@ -180,8 +236,61 @@ body {
 .contact {
   height: 825px;
   border: 1px solid black;
+  color: #000000;
 }
-
+.contact span {
+  font-weight: 300;
+}
+.contact .contact__title {
+  font-size: 34px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin: 185px 0 45px;
+}
+.contact .contact__line {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.contact .contact__form {
+  height: 360px;
+  width: 450px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  left: 510px;
+  border: 1px solid red;
+  font-weight: 700;
+}
+.contact .contact__littleforn {
+  background-color: #e9e9e9;
+  position: relative;
+  top: -12px;
+  width: 160px;
+}
+.contact .contact__bigforn {
+  background-color: #e9e9e9;
+  width: 380px;
+}
+.contact .contact__text {
+  font-size: 14px;
+  line-height: 26px;
+  position: relative;
+  left: 975px;
+  border: 1px dashed red;
+  top: -365px;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+.contact .contact__data {
+  position: relative;
+  left: 975px;
+  border: 1px dashed red;
+  top: -365px;
+  font-weight: 900;
+}
 .footer {
   height: 275px;
   background-color: #3c3c3c;
